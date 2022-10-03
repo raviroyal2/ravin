@@ -1,0 +1,155 @@
+import java.util.Scanner;
+public class assignment{
+public static void main(String[] args){
+    String Raju = "Hello world";
+    System.out.println(Raju);
+
+          //data types
+
+          float a = 5.5f;
+          System.out.println(a);
+  
+          char b = 'A';
+          System.out.println(b);
+  
+          double siva = 4.98987d;
+          System.out.println(siva);
+           
+         int myNum = 9;
+         float myFloatNum = 8.99f;
+         char myLetter = 'A';
+         Boolean myBool = false;
+         String myText = "Hello World";
+
+         int x = 10;
+         int y = 5;
+         System.out.println(x + y );
+
+         char myLettar = 'A';
+         System.out.println(myLettar );
+
+         double ram = 4.98987d;
+         System.out.println(ram);
+
+         int d = 2;
+         int e = 4;
+         int f = d+e;
+         System.out.println(f);
+
+         int v = 45;
+         int z = 32;
+         int g = v-z;
+         System.out.println(g);
+
+         int p = 45;
+         int n = 32;
+         int m = p*n;
+         System.out.println(m);
+
+         int length = 2;
+         int breadth = 3;
+         int area = length * breadth;
+         System.out.println(area);
+
+         float am = 8.2f;
+         int   sita = 6;
+         float lak = am * sita;
+         System.out.println(lak);
+
+         double an = 100.235d;
+         int as = (int)an;
+         System.out.println(as);
+
+         int cat = 5;
+         double mouse = 6.2;
+         double fox = cat + mouse;
+         System.out.println(fox);
+
+         int sry = 23;
+         int thanks = 45;
+         System.out.println(sry == thanks);
+
+         int sai = 8;
+         int dad = 2345;
+         int mom = sai+dad;
+         int era = 3;
+         int erc = mom/era;
+         int erk = 5;
+         int erw = erc%erk;
+         int erx = erw*erk;
+         System.out.println(erx);
+
+         int h,q,r,s,ar;
+          h = r = 5;
+          q = s = 7;
+          ar = h*q;
+          System.out.println(ar);
+
+         int l1,b1,pr;
+         l1 = 5;
+         b1 = 7;
+         pr = 2*(l1+b1);
+         System.out.println(pr);
+
+         if (l1 == b1)
+
+          {
+            System.out.println("this is a square");
+          }
+          else{
+            System.out.println("this is a rectangle");
+
+        
+          }
+
+float totalmarks,marksobtained;
+System.out.println("enter the total marks & Marks Obtained");
+Scanner lmn = new Scanner(System.in);
+totalmarks = lmn.nextFloat();
+marksobtained = lmn.nextFloat();
+float perc = (marksobtained/totalmarks) * 100;
+System.out.println("percentage is " + perc);
+
+if(perc>80)
+{
+    System.out.println("grade is A");
+}
+else if(perc>60)
+{
+    System.out.println("grade is B");  
+}
+else if(perc>50)
+{
+    System.out.println("grade is C");  
+}
+else if(perc>45)
+{
+    System.out.println("grade is d");
+}
+
+    else if(perc>25)
+{
+    System.out.println("grade is e");
+}
+else {
+    System.out.println("grade is ");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+         
+
+
+
+         
+}
+}
