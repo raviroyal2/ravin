@@ -1,0 +1,12 @@
+body{
+    font-size: medium;
+    font-style: oblique;
+    color: red;
+}
+*{
+
+    border: 1px darkgreen;
+}
+p{
+    color: green;
+}
